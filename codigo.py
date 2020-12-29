@@ -17,7 +17,7 @@ def Descarga():
         notif.config(fg="red", text="No se pudo descargar el video")
 
 """ A partir de aquí, es simplemente usar la librería Tkinter para darle una apariencia a nuestra app.
-Se puede reconfigurar a nuestro gusto"""
+Se puede reconfigurar a nuestro gusto."""
 master = Tk()
 master.title("Script Descargas")
 Label(master, text="Convertidor de video YouTube", fg= "red", font=("calibri", 15)).grid( sticky=N, padx=100, row=0)
